@@ -1,0 +1,22 @@
+{
+	"name": "as",
+	"description": "Create a JavaScript scope in which the enclosing function's first argument is referred to as `this'",
+	"version": "1.0.0",
+	"author": {
+		"name": "Ben Chociej",
+		"email": "me@benchociej.com"
+	},
+	"keywords": [
+		"coffeescript",
+		"bind",
+		"apply",
+		"scope"
+	],
+	"dependencies": {},
+	"devDependencies": {},
+	"main": "./index.js",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/bchociej/as.git"
+	}
+}
