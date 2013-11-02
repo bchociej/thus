@@ -1,5 +1,5 @@
 {
-	"name": "as",
+	"name": "thus",
 	"description": "Create a JavaScript scope in which the enclosing function's first argument is referred to as `this'",
 	"version": "1.0.0",
 	"author": {
@@ -17,6 +17,6 @@
 	"main": "./index.js",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/bchociej/as.git"
+		"url": "git://github.com/bchociej/thus.git"
 	}
 }

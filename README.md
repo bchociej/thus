@@ -1,12 +1,12 @@
-as
-==
+thus
+====
 
 Create a JavaScript scope in which the enclosing function's first argument is referred to as `this'.
 
 This is primarily a convenience function for writing CoffeeScript:
 
 ```coffeescript
-as express(), ->
+thus express(), ->
 	@set 'view engine', 'jade'
 	@listen 8080
 ```
