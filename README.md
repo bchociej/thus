@@ -11,7 +11,16 @@ thus express(), ->
 	@listen 8080
 ```
 
-Which is roughly equivalent to:
+Expressed in JS, that would be:
+
+```javascript
+thus(express(), function() {
+	this.set('view engine', 'jade');
+	this.listen(8080);
+});
+```
+
+Which is functionally equivalent to:
 
 ```javascript
 var app = express();
@@ -19,4 +28,4 @@ app.set('view engine', 'jade');
 app.listen(8080);
 ```
 
-Maybe stupid, but I like writing code this way.
+Might seem stupid, but I like writing code this way.
