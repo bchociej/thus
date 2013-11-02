@@ -1,7 +1,7 @@
 thus
 ====
 
-Create a JavaScript scope in which the enclosing function's first argument is referred to as `this'.
+Create a JavaScript scope in which ```thus```'s first argument is referred to as ```this```.
 
 This is primarily a convenience function for writing CoffeeScript:
 
